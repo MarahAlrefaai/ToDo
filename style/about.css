@@ -20,3 +20,16 @@ a{
   font-size: 28px;
 
 }
+footer {
+ 
+  background-color: #E6E6E6;
+  padding: 10px;
+  text-align: center;
+  color: black;
+ size: 30px;
+  position: absolute;
+  bottom: 0;
+  width: 98%;
+  height: 30px;   
+  
+}
