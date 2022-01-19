@@ -4,7 +4,8 @@
 ## this is design for ToDo list 
 #####  first page
 
-![alttex](assets/homePage.jpg)  
+![alttex](assets/homePage.jpg) 
+
 #####  second page
 ![alttex](assets/aboutPage.jpg)
 
