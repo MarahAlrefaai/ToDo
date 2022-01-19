@@ -40,6 +40,7 @@ a{
   font-size: 28px;
 
 }
+
 .firsrSec{
   margin-left: 15%;
   border: solid 1px;
@@ -53,6 +54,12 @@ img {
   border-radius: 50%;
 }
 
+
+
+img {
+ 
+  border-radius: 50%;
+}
 
 footer {
  
