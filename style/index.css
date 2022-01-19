@@ -1,34 +1,46 @@
 header {
   background-color: rgb(101, 44, 179,90%);
   font-size: 30px;
-  height: 50px;
+  height: 60px;
   color: white;
   padding: 30px;
   justify-content: space-between;
-
   display: flex;
 }
-h2{
+h2{ 
   text-align: left;
+  color: white;
+  align-self:center ;
+  display:inline-block;
 }
 ul li{
+  
+ 
   list-style: none;
   display: inline-block;
   margin: 0px  30px;
 }
+
 table{
+ border: solid .5px;
+border-collapse: collapse;
   margin-top: 20px;
-  margin-left: 15px;
-  font-size: 40px;
+  font-size: 30px;
+  margin-left: auto; 
+  margin-right: auto;
 
 }
+
 
  th , td {
-   text-align: left;
+  border: solid .25px;
+   text-align: center;
   margin: 10px;
-  padding: 40px;
+  padding:20px 20px;
   width: 250px;
+
 }
+
 a{
   color: white;
   font-size: 28px;
@@ -41,6 +53,10 @@ a{
   width: 100px;
 
 }
+#logo{
+  height: 60px;
+}
+
 footer {
  
   background-color: #E6E6E6;
