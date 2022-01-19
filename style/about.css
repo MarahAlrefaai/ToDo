@@ -1,0 +1,22 @@
+header {
+  background-color: rgb(101, 44, 179,90%);
+  font-size: 30px;
+  height: 50px;
+  color: white;
+  padding: 30px;
+  justify-content: space-between;
+  display: flex;
+}
+h2{
+  text-align: left;
+}
+ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 0px  30px;
+}
+a{
+  color: brown;
+  font-size: 28px;
+
+}
