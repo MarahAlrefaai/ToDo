@@ -17,10 +17,16 @@ if(((gender.toLowerCase()=="male")||(gender.toLowerCase()=="female")))
 }
 }
 else{
-  alert("you didn't enter the cottect gender");
+  (gender.toLowerCase()=="male")?msORmr="Mr":msORmr="Ms";
+  age=prompt("please enter your age : ") ;
+ if(age<=0){
+   alert("you didn't enter your correct age .\n it must be more than zero ");
+ }
+ else{
+   welcomingMessag=confirm("do you want to see  welcoming message. ");
+   if(welcomingMessag==true){
+     alert("welcom "+  name );
+   }
+}
 }
 
-
-/*console.log(typeof name);
-console.log(typeof gender);
-console.log(typeof age);*/
