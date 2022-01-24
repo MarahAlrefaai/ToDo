@@ -33,44 +33,43 @@ else{
 }
 }
 //Question1
-function q1 () {
-  
-    do{
-      answerQuestions[0]=prompt(Questions[0]);
-    if((answerQuestions[0]=="yes")||(answerQuestions[0]=="no"))break;
-    else{alert("invalid");}
-    }while(answerQuestions[0]=="")
-    console.log(answerQuestions[0]);
-    
+function q0() {
+  let testAN=prompt(Questions[0]);
+  while((testAN!="yes")&&(testAN!="no")){
+    alert("invalid");
+   testAN=prompt(Questions[0]);
+  }
+  answerQuestions[0]=testAN;
+  //console.log(answerQuestions[0]); 
 }
 //Question2
-function q2 () {
-  
-    do{
-      answerQuestions[1]=prompt(Questions[1]);
-    if((answerQuestions[1]=="yes")||(answerQuestions[1]=="no"))break;
-    else{alert("invalid");}
-    }while(answerQuestions[1]=="")
-    console.log(answerQuestions[1]);
-    
+function q1 () {
+  let testAN=prompt(Questions[1]);
+  while((testAN!="yes")&&(testAN!="no")){
+    alert("invalid");
+   testAN=prompt(Questions[1]);
+  }
+  answerQuestions[1]=testAN;
+ // console.log(answerQuestions[1]); 
 }
 //Question3
-function q3 () {
-  
-    do{
-      answerQuestions[2]=prompt(Questions[2]);
-    if((answerQuestions[2]=="yes")||(answerQuestions[2]=="no"))break;
-    else{alert("invalid");}
-    }while(answerQuestions[2]=="")
-    console.log(answerQuestions[2]);
-   
+function q2 () {
+  let testAN=prompt(Questions[2]);
+  while((testAN!="yes")&&(testAN!="no")){
+    alert("invalid");
+   testAN=prompt(Questions[2]);
+  }
+  answerQuestions[2]=testAN;
+  //console.log(answerQuestions[2]); 
 }
 // task 6
 
-
-q1(answerQuestions[0],Questions[0]);
-q2(answerQuestions[1],Questions[1]);
-q3(answerQuestions[2],Questions[2]);
+q0();
+q1();
+q2();
+for(let i=0;i<answerQuestions.length;i++){
+  console.log(answerQuestions[i]);
+}
 
 //this is without function
 /*
